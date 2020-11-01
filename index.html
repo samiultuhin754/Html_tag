@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+	    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<base href="https://lipsum.com/" target="_blank">
+
+		<style>
+			table,th,td{
+				border: 2px solid black;
+			}
+
+             dd{
+             	display: black;
+             	margin-left: 50px;
+             }
+             .mydiv{
+             	border: 5px outset red;
+             	background-color: lightblue;
+             	text-align: center;
+             }
+
+		</style>
+
+
+	
+</head>
+<body>
+	<h1> The Eddress Element</h1>
+	<address>
+		Written by:Samiul Tuhin<br>
+		Visit Us At:<br>
+		samiul tuhin<br>
+		Gazipura,Tongi,<br>
+		Gazipur,Dhaka.<br>
+
+	</address>
+	<article>
+		<h2>Lorem Ipsum</h2>
+		<p><cite>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</cite></p>
+	</article>
+
+
+      <aside>
+      <h2>What is Lorem Ipsum?</h2>
+      <p>Lorem Ipsum is <b>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</b> when an unknown printer.</p>
+      </aside>
+
+      <p><a href="https://lipsum.com/">Lorem Ipsum</a> It is a long <code> established fact that a reader will be distracted by the readable content of</code> a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,.</p>
+
+        <p><bdo dir="rtl"> Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</bdo></p>
+
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</blockquote>
+
+         <button type="button" onclick="alert('hellow.how r you?')">click me</button>
+
+         
+         <canvas id="myCanvas">
+Your browser does not support the canvas tag.
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "green";
+ctx.fillRect(20, 20, 75, 50);
+
+//Turn transparency on
+ctx.globalAlpha = 0.2;
+ctx.fillStyle = "blue"; 
+ctx.fillRect(50, 50, 75, 50); 
+ctx.fillStyle = "red"; 
+ctx.fillRect(80, 80, 75, 50);
+</script>
+        
+
+        <table>
+        	<colgroup>
+        		<col style="background-color: #708090">
+        		<col style="background-color: #808000">
+        		<col style="background-color: #fffd34">
+        		
+        	</colgroup>
+        	
+        	<tr>
+        		<th>name</th>
+        		<th>roll</th>
+        		<th>deu</th>
+        	</tr>
+        	<tr>
+        		<td>tuhin</td>
+        		<td>197</td>
+        		<td>2000</td>
+        	</tr>
+        	<tr>
+        		<td>asif</td>
+        		<td>195</td>
+        		<td>2000</td>
+        	</tr>
+
+
+        </table>
+
+        <h1>the data element</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul>
+        	<li><data value="195">samiul</data></li>
+        	<li><data value="196">tuhin</data> </li>
+        	<li><data value="197">hasan</data> </li>
+        </ul>
+
+        <h1> the datalist element</h1>
+        <form action="/action_page.php" method="get">
+        	<label for="browser">choose your browser form the list:</label>
+
+        	 <input list="browsers" name="browser" id="browser">
+        	 <datalist id="browsers">
+        	 	<option value="edge">
+        	 		<option value="firefox">
+        	 			<option value="chrome">
+        	 				<option value="opera">
+        	 					<option value="uc browser">
+        	 	
+        	 </datalist>
+             <input type="submit">
+        	
+        </form>
+           
+           <h1>a dd element</h1>
+           <dl>
+           	<dt>water</dt>
+           	<dd>water is another name for life</dd>
+           	<dt>milk</dt>
+           	<dd>white cold drink</dd>
+           </dl>
+
+           <h1>the del element</h1>
+           <p><del>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</del></p>
+
+           <h1>The details element</h1>
+
+           <details>
+           	<summary>Lorem Ipsum</summary>
+           	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+           	</details>
+           	<h1>The dnf element</h1>
+           	<p> The point of using<dfn> Lorem Ipsum</dfn> is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+
+           	<h1>the div element</h1>
+           	<div class="mydiv">
+           		<h2>The standard chunk of Lorem Ipsum used</h2>
+           		<p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+           		
+           	</div>
+
+           	<h1>The fieldset element</h1>
+
+           	<form>
+           		<fieldset>
+           			<legend>personal information</legend>
+           			<label for="fname">Fast Name:</label>
+           			<input type="text" id="fname" name="fname"><br><br>
+           			<label for="lname">Last Name:</label>
+           			<input type="text" id="lname" name="lname"><br><br>
+           			<label for="email">Email</label>
+           			<input type="text" id="email" name="email"><br><br>
+           			<label for="birthday">Birthday</label>
+           			<input type="text" id="birthday" name="birthday"><br><br>
+           			<input type="submit" value="submit">
+
+           		</fieldset>
+           	</form>
+
+           	<h1>The figure and figcaption element</h1>
+
+           	<figure>
+           		<img src="images/laptop.jpg" alt="laptop" width="400">
+           		<figcaption>fig.1 -apple,laptop.usa</figcaption>
+           	</figure>
+
+           	<h1>The footer element</h1>
+           	<footer>
+           		<p>Author:Md Samiul Tuhin<br>
+           			<a href="mailto:samiultuhin754@gmail.com">samiultuhin754@gmail.com</a></p>
+           	</footer>
+
+           	<h1>This Is Heading 1</h1>
+           	<h2>This Is Heading 2</h2>
+           	<h3>This Is Heading 3</h3>
+           	<h4>This Is Heading 4</h4>
+           	<h5>This Is Heading 5</h5>
+           	<h6>This Is Heading 6</h6>
+
+           	<h1>The Main Languages Of The Web</h1>
+           	<hr>
+           	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+           	<hr>
+           	<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+           	<hr>
+           	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+           	<hr>
+
+           	<h1>The I Element</h1>
+           	<p>Sed ut perspiciatis<i>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</i> </p>
+           	<h1>The Iframe Element</h1>
+           	<iframe src="https://lipsum.com/" title="Lorem Ipsum"></iframe>
+
+           	<img src="image/laptop.jpg" alt="laptop" width="400">
+           	<h1>The ins Element</h1>
+           	<p> Lorem Ipsum as <ins> their default model text, and a search for 'lorem ipsum' will uncover many web sites</ins> still in their infancy</p>
+
+           	<h1>The kbd Element</h1>
+           	<p><kbd>Lorem Ipsum</kbd>  is simply dummy<kbd> text of the printing</kbd>  and typesetting industry.</p>
+           	<p><kbd>Lorem Ipsum </kbd> is simply dummy text of the printing and<kbd> typesetting industry</kbd> .</p>
+
+           	<h1>The Mark Element</h1>
+           	<<p>Lorem Ipsum is simply dummy<mark> text of the printing and typesetting industry</mark>. Lorem Ipsum has been<mark> the industry's standard dummy text ever </mark>since the 1500s,</p>
+
+           	<h1>The Meter Element</h1>
+           	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+           	<label for="disk_c"> Lorem Ipsum A:</label>
+           	<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+           	<label for="disk_d">Lorem Ipsum B:</label>
+           	<meter id="disl_d" value="0.6">60%</meter>
+
+           	<h1>The nav Element</h1>
+           	<p> Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
+           	<nav>
+           		<a href="/tuhin/">TUHIN</a>|
+           		<a href="/hasan/">HASAN</a>|
+           		<a href="/samiul/">SAMIUL</a>
+           	</nav>
+           	<h1>The object element</h1>
+           	<object data="images/laptop.jpg" width="400" height="300"></object>
+
+           	<h1>the optgroup element</h1>
+           	<p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <optgroup label="Swedish Cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+              
+              <h1>the output element</h1>
+              <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+              	<input type="range" id="a" value="50">+<input type="number" id="b" value="30">
+              	=<output name="x" for="a b"></output>
+              	
+              </form>
+
+              <h1>The p element</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+              <h1>The pre element</h1>
+              <pre>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</pre>
+
+
+              <h1>the progress element</h1>
+              <label for="file">Downloading progress:</label>
+              <progress id="file" value="35" max="100">35%</progress>
+
+              <h1>the q element</h1>
+              <p>It is a long <q>established fact that a reader will be distracted by the readable content of a page</q>  when looking at its layout</p>
+              
+
+
+              <h1>The wbr element</h1>
+              <p>Contrary to popular belief,<wbr> Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old<wbr>. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+
+
+              	<h1>The time element</h1>
+
+<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
